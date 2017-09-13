@@ -1,7 +1,7 @@
 var uuid = require('node-uuid'),
     request = require('request');
 
-var SPEECH_API_KEY = process.env.MICROSOFT_SPEECH_API_KEY||'02d554641c6642a4be641795b7a73151';
+var SPEECH_API_KEY = process.env.MICROSOFT_SPEECH_API_KEY;
 
 // The token has an expiry time of 10 minutes https://www.microsoft.com/cognitive-services/en-us/Speech-api/documentation/API-Reference-REST/BingVoiceRecognition
 var TOKEN_EXPIRY_IN_SECONDS = 600;

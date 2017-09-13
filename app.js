@@ -3,7 +3,7 @@ A speech to text bot for the Microsoft Bot Framework.
 -----------------------------------------------------------------------------*/
 
 // This loads the environment variables from the .env file
-require('dotenv-extended').load();
+//require('dotenv-extended').load();
 
 var builder = require('botbuilder'),
     fs = require('fs'),
